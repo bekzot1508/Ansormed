@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'open sans condensed', sans-serif
+    }
+
 .container{
     width: 100%;
     max-width: 1000px;
@@ -24,10 +28,11 @@
     color:#FFFFFF;
     background: #DE2E54;
     width: 141px;
-    height: 30px;
+    height: 46px;
     border-radius: 8px;  
-    padding: 7px 15px;
+    padding: 15px 15px;
     font-size: 15px;
+    font-weight: 300;
 }
 
 .parents {
@@ -61,20 +66,22 @@
 }
 
 .hero-heading {
-    width: 500px;
+    width: 540px;
     height: 86px;
+    margin-bottom: 40px;
 } 
 
 .here-p{
     height: 108px;
     width: 440px;
+    margin-bottom: 40px;
 }
 
 .hero-button{
     text-decoration-line: none;
     color:#FFFFFF;
     background: #DE2E54;
-    /* height: 47px; */
+    height: 47px;
     width: 189px;
     border-radius: 8px;  
     padding: 15px 25px;
@@ -106,6 +113,7 @@
     width: 200px;
     margin-right: 50px;
     border-radius:28px;
+
 }
 .sec-p {
     width: 600px;
